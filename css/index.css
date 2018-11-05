@@ -26,3 +26,6 @@ body{
   margin-right: auto;
   margin-bottom: 200px;
 }
+.list-inline-item{
+  padding: 10px;
+}
