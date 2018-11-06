@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  color: blue;
+  color: white;
 }
 
 .navbar-custom{
@@ -19,7 +19,14 @@ body{
   border-radius: 500px;
   margin-bottom: 30px;
 }
+.hello{
+  padding: 10px;
+}
 
+.btn_cv{
+  margin: auto;
+  display: block;
+}
 
 .skills{
   margin-left: auto;
