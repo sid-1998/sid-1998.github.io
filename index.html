@@ -14,7 +14,7 @@
   </head>
   <body>
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-custom ">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand hvr-buzz hvr-hang" href="#about">Siddharth Pahuja</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,10 +45,13 @@
             <span class="letters">Hi There! I am Siddharth Pahuja</span>
           </span>
         </h2>
-        <h2 class="text-center discription"> And I'm a <span class="slogan"></span> </h2>
-        <a href="sidcv.pdf" target="_new" class="">
-          <button class="btn btn-primary  hvr-buzz cv-btn" type="button" name="button">CURRICULUM VITAE </button>
-        </a>
+        <h4 class="text-center discription"> And I'm a <span class="slogan"></span> </h4>
+        <div class="btn-wrapper text-center">
+          <a href="sidcv.pdf" target="_new" class="">
+            <button class="btn btn-primary cv-btn hvr-buzz" type="button" name="button">CURRICULUM VITAE </button>
+          </a>
+        </div>
+
 
       </div>
 
@@ -60,29 +63,39 @@
 
                 <ul>
                   <li>Python</li>
-                  <li>C/C++</li>
+                  <li>C</li>
+                  <li>C++</li>
                   <li>JavaScript</li>
                   <li>Java</li>
+                  <li>Data Structures</li>
+                  <li>Algorithms</li>
 
                 </ul>
             </div>
             <div class="col-md-4 col-sm-4">
 
               <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>jQuery</li>
                 <li>Django</li>
-                <li>Bootstrap</li>
-                <li>Tensorflow</li>
-                <li>Keras</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+
               </ul>
             </div>
             <div class="col-md-4 col-sm-4">
 
               <ul>
+                <li>Tensorflow</li>
+                <li>Keras</li>
                 <li>PostgreSQL</li>
                 <li>SQLite</li>
                 <li>SQL</li>
                 <li>Git</li>
-                <li>jQuery</li>
+                <li>Linux</li>
+
+
               </ul>
             </div>
 
@@ -196,12 +209,12 @@
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
-  anime.timeline({loop: false})
+  anime.timeline({loop: true})
     .add({
       targets: '.hello .letter',
       translateY: ["1.1em", 0],
       translateZ: 0,
-      duration: 750,
+      duration: 500,
       delay: function(el, i) {
         return 50 * i;
       }
@@ -210,12 +223,14 @@
       opacity: 100,
       duration: 1000,
       easing: "easeOutExpo",
-      delay: 1000
+      delay: 500
     });
 
   $(".slogan").typed({
-      strings: ["Pythonist.","Machine Learning enthusiast.", "Full stack Web Developer."],
-      typeSpeed: 40,
+      strings: ["Pythonist.","Machine Learning enthusiast.", "Web Developer."],
+      typeSpeed: 30,
+      startDelay: 500,
+      backDelay: 500,
       loop: true,
 
       });

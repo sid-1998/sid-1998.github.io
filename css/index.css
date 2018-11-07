@@ -1,12 +1,15 @@
 body{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .navbar-custom{
-    color: blue;
+  background-color: black;
+  color: white;
 }
-
+.navbar-toggler-icon{
+  color: white;
+}
 
 .intro{
   margin-top: 150px;
