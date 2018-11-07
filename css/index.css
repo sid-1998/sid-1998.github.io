@@ -20,11 +20,31 @@ body{
   margin-bottom: 30px;
 }
 .hello{
-  padding: 10px;
+  /* padding: 10px; */
+  position: relative;
+  font-weight: 900;
+  font-size: 2em;
+}
+.hello .text-wrapper {
+  position: relative;
+  display: block;
+  padding-top: 0.2em;
+
+  overflow: hidden;
 }
 
-.btn_cv{
-  margin: auto;
+.hello .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.cv-btn{
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   display: block;
 }
 
