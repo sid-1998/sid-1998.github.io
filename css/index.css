@@ -16,11 +16,15 @@ body{
   margin-bottom: 200px;
 }
 
+
 .dp{
   width: 300px;
   height: 300px;
   border-radius: 500px;
+  display: block;
+  margin: auto;
   margin-bottom: 30px;
+
 }
 .hello{
   /* padding: 10px; */
@@ -51,11 +55,21 @@ body{
   display: block;
 }
 
-.skills{
+
+
+.portfolio-wrapper{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 200px;
 }
+.title{
+  font-weight: 700;
+}
+
+.card-img-top:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 2);
+}
+
 .list-inline-item{
   padding: 10px;
 }
