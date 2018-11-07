@@ -3,24 +3,21 @@ body{
   color: black;
 }
 
-.navbar-custom{
-  background-color: black;
-  color: white;
+.navbar{
+  margin-bottom: 200px;
 }
-.navbar-toggler-icon{
-  color: white;
-}
+
 
 .intro{
   margin-top: 150px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 
 .dp{
   width: 300px;
   height: 300px;
-  border-radius: 500px;
+  border-radius: 50%;
   display: block;
   margin: auto;
   margin-bottom: 30px;
@@ -30,7 +27,7 @@ body{
   /* padding: 10px; */
   position: relative;
   font-weight: 900;
-  font-size: 2em;
+
 }
 .hello .text-wrapper {
   position: relative;
@@ -45,32 +42,44 @@ body{
   line-height: 1em;
 }
 
+
+
 .cv-btn{
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 900;
-  margin-top: 70px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
   display: block;
 }
 
+.title{
+  font-weight: 700;
+}
 
-
-.portfolio-wrapper{
+.skill-wrapper{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 200px;
 }
-.title{
-  font-weight: 700;
+
+.skill-list{
+  font-size: 1.2em;
 }
+
+
+
 
 .card-img-top:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 2);
 }
 
-.list-inline-item{
+.card-title{
+  font-weight: 600;
+}
+
+.icons{
   padding: 10px;
 }
 .icons>i{
