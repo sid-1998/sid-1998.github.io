@@ -26,6 +26,8 @@ body{
   /* padding: 10px; */
   position: relative;
   font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .hello .text-wrapper {
@@ -67,6 +69,9 @@ body{
 .skill-list{
   font-size: 1.2em;
 }
+ .project-wrapper{
+   padding-top: 60px;
+ }
 
 
 

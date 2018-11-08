@@ -9,6 +9,8 @@ $(document).ready(function() {
       scrollTop: $(this.hash).offset().top
     }, 1000 );
   });
+
+
   $(".slogan").typed({
       strings: ["Pythonist.","Machine Learning enthusiast.", "Web Developer."],
       typeSpeed: 30,
@@ -18,25 +20,25 @@ $(document).ready(function() {
 
       });
 
-      $('.hello .letters').each(function(){
-        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-      });
+    $('.hello .letters').each(function(){
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
 
-      anime.timeline({loop: true})
-        .add({
-          targets: '.hello .letter',
-          translateY: ["1.1em", 0],
-          translateZ: 0,
-          duration: 500,
-          delay: function(el, i) {
-            return 50 * i;
-          }
-        }).add({
-          targets: '.hello',
-          opacity: 100,
-          duration: 1000,
-          easing: "easeOutExpo",
-          delay: 500
-        });
+    anime.timeline({loop: true})
+      .add({
+        targets: '.hello .letter',
+        translateY: ["1.1em", 0],
+        translateZ: 0,
+        duration: 500,
+        delay: function(el, i) {
+          return 50 * i;
+        }
+      }).add({
+        targets: '.hello',
+        opacity: 100,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 500
+      });
 
 });
