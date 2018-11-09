@@ -85,6 +85,10 @@ body{
    position: relative;
  }
 
+.project-wrapper a{
+  margin-bottom: 50px;
+}
+
 
 .card-img-top:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 2);
@@ -113,7 +117,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-footer{
+#contact{
   padding-top:15px;
   padding-bottom:15px;
   background-color:#336699;
