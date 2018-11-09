@@ -2,15 +2,25 @@ body{
   background-color: white;
   color: black;
   font-family: 'Mali', cursive;
+
 }
 
-
+#particles-js{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: -20;
+  background-color: red;
+}
 
 .intro{
   /* margin-top: 100px; */
   padding-bottom: 250px;
   padding-top: 160px;
-  background-color: #cc00ff;
+  /* background-color: #cc00ff; */
 
 }
 
@@ -68,10 +78,9 @@ body{
   padding-bottom: 350px;
   padding-left: 150px;
   padding-right: 150px;
-  background-color: #6600ff;
-
-
+  /* background-color: #6600ff; */
 }
+
 
 .skill-list{
   font-size: 1.5em;
@@ -81,7 +90,7 @@ body{
    padding-left: 150px;
    padding-right: 150px;
    padding-bottom: 100px;
-   background-color: #9933ff;
+   /* background-color: #9933ff; */
    position: relative;
  }
 
@@ -120,5 +129,5 @@ body{
 #contact{
   padding-top:15px;
   padding-bottom:15px;
-  background-color:#336699;
+  /* background-color:#336699; */
 }
