@@ -1,6 +1,6 @@
 body{
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  color: white;
   font-family: 'Mali', cursive;
 
 }
@@ -13,21 +13,22 @@ body{
   background-repeat: no-repeat;
   background-position: 50% 50%;
   z-index: -20;
-  background-color: red;
+  background-color: black;
 }
 
 
 
 .navbar {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
     background-color: transparent !important;
-    color: #fff;
+
 }
 
 .navbar a{
   font-weight: 900;
   font-size: 1.5em;
+  color: white!important;
 }
 
 .intro{
@@ -124,8 +125,8 @@ body{
 .icons{
   padding: 10px;
 }
-.icons>i{
-  color: black;
+.icons i{
+  color: white;
 }
 .parallax {
     /* The image used */
