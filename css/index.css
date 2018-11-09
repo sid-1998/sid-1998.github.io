@@ -13,7 +13,7 @@ body{
   background-repeat: no-repeat;
   background-position: 50% 50%;
   z-index: -20;
-  background-color: black;
+  background-color: #5b6472;
 }
 
 
@@ -31,6 +31,10 @@ body{
   color: white!important;
 }
 
+.navbar a:hover, a:focus, a:active, a.active {
+  color: #0fdd81!important;
+}
+
 .intro{
   /* margin-top: 100px; */
   padding-bottom: 250px;
@@ -44,11 +48,15 @@ body{
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  display: block;
-  margin: auto;
+  /* display: block;
+  margin: auto; */
   margin-bottom: 30px;
 
 }
+/* .dp:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 2);
+} */
 .hello{
   /* padding: 10px; */
   position: relative;
@@ -128,19 +136,7 @@ body{
 .icons i{
   color: white;
 }
-.parallax {
-    /* The image used */
-    /* background-image: url("img_parallax.jpg"); */
 
-    /* Set a specific height */
-    /* height: 500px; */
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 #contact{
   padding-top:15px;
   padding-bottom:15px;
