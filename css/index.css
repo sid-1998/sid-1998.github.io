@@ -95,6 +95,9 @@ body{
   font-weight: 700;
 
 }
+.title:hover{
+  color: #0fdd81;
+}
 
 .skill-wrapper{
   padding-top: 60px;
