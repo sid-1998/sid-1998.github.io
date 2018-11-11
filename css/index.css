@@ -24,6 +24,11 @@ body{
     background-color: transparent !important;
 
 }
+ .navbar .navbar-brand{
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em; 
+  color: #0fdd81!important;
+ }
 
 .navbar a{
   font-weight: 900;
@@ -119,9 +124,11 @@ body{
 }
 
 .skill-list ul li::before{
-  content: "\25BA";
+  content: "\25CF";
   color:#0fdd81;
+  display: inline;
 }
+
 .skill-list li:hover{
   color: #0fdd81;
   text-decoration: underline;
@@ -145,7 +152,16 @@ body{
 }
 
 .card-title{
+  font-size: 1.8em;
   font-weight: 600;
+}
+.card-title:hover{
+  color: #0fdd81;
+  text-decoration: underline;
+}
+
+.card-text{
+  font-size: 1.2em
 }
 
 .icons{
@@ -154,9 +170,22 @@ body{
 .icons i{
   color: white;
 }
+.icons i:hover{
+  color: #0fdd81;
+}
 
 #contact{
   padding-top:15px;
   padding-bottom:15px;
   /* background-color:#336699; */
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #0fdd81;
+  /* border-block-end-color: #0fdd81; */
+  /* border-radius: %; */
+}
+
+.btn-primary:hover{
+  background-color: ;
 }
