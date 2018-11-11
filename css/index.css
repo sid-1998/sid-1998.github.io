@@ -18,9 +18,8 @@ body{
 
 
 
-.navbar {
-    /* padding-top: 1.5rem;
-    padding-bottom: 1.5rem; */
+ .navbar {
+
     background-color: transparent !important;
 
 }
@@ -28,16 +27,27 @@ body{
   font-family: 'Great Vibes', cursive;
   font-size: 2em; 
   color: #0fdd81!important;
- }
+ } 
 
-.navbar a{
+
+.navbar .navbar-toggler:hover {
+  background-color: #0fdd81;;
+}
+ .navbar a{
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: white!important;
 }
 
-.navbar a:hover, a:focus, a:active, a.active {
+.navbar a:hover {
   color: #0fdd81!important;
+} 
+  
+
+.navbar .navbar-nav>.active  a{
+  color: #0fdd81!important;
+  /* background-color: #0fdd81;
+  border-radius: 15%; */
 }
 
 .intro{
@@ -195,6 +205,7 @@ body{
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #0fdd81;
   border: none!important;
+  
   /* border-block-end-color: #0fdd81; */
   /* border-radius: %; */
 }

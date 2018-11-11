@@ -14,11 +14,7 @@ $(document).ready(function() {
   // Active link switching
   $(window).scroll(function() {
     var scrollbarLocation = $(this).scrollTop();
-    // $('div').animate({left:'250px'});
-    // console.log(scrollbarLocation)
-    // if(scrollbarLocation === 522){
-    //   $('.skill-wrapper').animate({left:'250px'})
-    // }
+
     scrollLink.each(function() {
 
       var sectionOffset = $(this.hash).offset().top - 20;
