@@ -116,7 +116,7 @@ body{
 
 
 .skill-list{
-  font-size: 1.5em;
+  font-size: 1.4em;
   
 }
 .skill-list ul{
@@ -126,12 +126,17 @@ body{
 .skill-list ul li::before{
   content: "\25CF";
   color:#0fdd81;
-  display: inline;
+  /* display: inline; */
+  /* padding: 20px; */
 }
 
 .skill-list li:hover{
   color: #0fdd81;
   text-decoration: underline;
+}
+
+.skill-list-one{
+  padding-left: 30px;
 }
  .project-wrapper{
    padding-top: 60px;
@@ -161,7 +166,8 @@ body{
 }
 
 .card-text{
-  font-size: 1.2em
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .icons{
