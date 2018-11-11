@@ -151,7 +151,10 @@ body{
   margin-bottom: 50px;
 }
 
-
+.card-img-top{
+  margin:auto;
+  display: block;
+}
 .card-img-top:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 2);
 }
@@ -168,6 +171,9 @@ body{
 .card-text{
   font-size: 1.2em;
   text-align: center;
+}
+.card-body a, a:hover, a:active, a:visited{
+  font-weight: 600;
 }
 
 .icons{
@@ -188,6 +194,7 @@ body{
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #0fdd81;
+  border: none!important;
   /* border-block-end-color: #0fdd81; */
   /* border-radius: %; */
 }
