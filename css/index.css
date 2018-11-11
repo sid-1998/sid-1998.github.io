@@ -93,6 +93,11 @@ body{
   line-height: 1em;
 }
 
+.slogan{
+  color: #0fdd81;
+  text-decoration: underline;
+}
+
 
 
 .cv-btn{
@@ -184,6 +189,7 @@ body{
 }
 .card-body a, a:hover, a:active, a:visited{
   font-weight: 600;
+  border: none!important;
 }
 
 .icons{
