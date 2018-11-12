@@ -60,13 +60,17 @@ body{
 
 
 .dp{
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   /* display: block;
   margin: auto; */
   margin-bottom: 30px;
 
+}
+.aboutme{
+  padding-top: 100px;
+  
 }
 /* .dp:hover{
   transform: scale(1.2);
