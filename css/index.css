@@ -60,8 +60,8 @@ body{
 
 
 .dp{
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   /* display: block;
   margin: auto; */
@@ -94,9 +94,11 @@ body{
 }
 
 .hello .letter {
+  transform-origin: 50% 100%;
   display: inline-block;
   line-height: 1em;
 }
+
 
 .slogan{
   color: #0fdd81;
@@ -141,12 +143,7 @@ body{
   list-style: none;
 }
 
-@media(min-width:960px){
 
-  .skill-list ul{
-     padding-left:150px;
-  }
-}
 
 .skill-list ul li::before{
   content: "\25CF";
@@ -163,7 +160,7 @@ body{
 .skill-list-one{
   padding-left: 30px;
 }
- .project-wrapper{
+.project-wrapper{
    padding-top: 60px;
    /* padding-left: 150px;
    padding-right: 150px; */
@@ -226,4 +223,13 @@ body{
   
   /* border-block-end-color: #0fdd81; */
   /* border-radius: %; */
+}
+@media(min-width:960px){
+
+  .skill-list ul{
+     padding-left:150px;
+  }
+  .profile-pic{
+    padding-left: 100px;
+  }
 }

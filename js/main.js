@@ -43,27 +43,27 @@ $(document).ready(function() {
       });
 
 
-  $('.hello .letters').each(function(){
-    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-  });
+// Wrap every letter in a span
+$('.hello .letters').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
 
   anime.timeline({loop: true})
-    .add({
-      targets: '.hello .letter',
-      translateY: ["1.1em", 0],
-      translateZ: 0,
-      duration: 500,
-      delay: function(el, i) {
-        return 50 * i;
-      }
-    }).add({
-      targets: '.hello',
-      opacity: 100,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 500
-    });
-
+  .add({
+    targets: '.hello .letter',
+    scale: [0, 1],
+    duration: 1500,
+    elasticity: 600,
+    delay: function(el, i) {
+      return 45 * (i+1)
+    }
+  }).add({
+    targets: '.ml9',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
 
 
 
