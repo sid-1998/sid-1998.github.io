@@ -68,6 +68,11 @@ body{
   margin-bottom: 30px;
 
 }
+.aboutme{
+ 
+  padding-top: 100px;
+  
+}
 /* .dp:hover{
   transform: scale(1.2);
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 2);
@@ -89,9 +94,11 @@ body{
 }
 
 .hello .letter {
+  transform-origin: 50% 100%;
   display: inline-block;
   line-height: 1em;
 }
+
 
 .slogan{
   color: #0fdd81;
@@ -136,12 +143,7 @@ body{
   list-style: none;
 }
 
-@media(min-width:960px){
 
-  .skill-list ul{
-     padding-left:150px;
-  }
-}
 
 .skill-list ul li::before{
   content: "\25CF";
@@ -158,7 +160,7 @@ body{
 .skill-list-one{
   padding-left: 30px;
 }
- .project-wrapper{
+.project-wrapper{
    padding-top: 60px;
    /* padding-left: 150px;
    padding-right: 150px; */
@@ -221,4 +223,13 @@ body{
   
   /* border-block-end-color: #0fdd81; */
   /* border-radius: %; */
+}
+@media(min-width:960px){
+
+  .skill-list ul{
+     padding-left:150px;
+  }
+  .profile-pic{
+    padding-left: 100px;
+  }
 }
