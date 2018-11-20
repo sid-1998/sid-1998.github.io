@@ -232,4 +232,8 @@ body{
   .profile-pic{
     padding-left: 100px;
   }
+  .dp{
+    width: 350px;
+    height: 350px;
+  }
 }
